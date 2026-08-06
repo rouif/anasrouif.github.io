@@ -148,3 +148,39 @@ button:hover {
     color: #c9a227;
     margin-bottom: 15px;
 }
+/* ===== CERTIFICATES SECTION ===== */
+
+#certificates {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.certificate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.certificate-list article {
+    background: #161616;
+    border: 1px solid #c9a227;
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+    transition: 0.3s;
+}
+
+
+.certificate-list article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(201,162,39,0.4);
+}
+
+
+.certificate-list h3 {
+    color: #c9a227;
+    margin-bottom: 15px;
+}
