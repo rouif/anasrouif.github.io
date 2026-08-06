@@ -1,4 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
 /* ---------- GENERAL ---------- */
+
 
 *{
     margin:0;
