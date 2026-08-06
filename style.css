@@ -406,3 +406,48 @@ body[style*="rtl"] nav {
     transform: translateY(-5px);
 
 }
+/* ===== CERTIFICATE CARDS ===== */
+
+.certificate-list {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+.certificate-list article {
+
+    background: #111;
+    border: 1px solid #c9a227;
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+
+.certificate-list article h3 {
+
+    color: #c9a227;
+
+}
+
+
+.certificate-list article p {
+
+    color: white;
+
+}
+
+
+.certificate-list article:hover {
+
+    transform: translateY(-8px);
+
+}
