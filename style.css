@@ -119,3 +119,32 @@ button:hover {
     background: white;
     transform: translateY(-3px);
 }
+/* ===== JOURNEY SECTION ===== */
+
+#journey {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+#journey article {
+    background: #161616;
+    border: 1px solid #c9a227;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 700px;
+    transition: 0.3s;
+}
+
+
+#journey article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(201,162,39,0.4);
+}
+
+
+#journey h3 {
+    color: #c9a227;
+    margin-bottom: 15px;
+}
