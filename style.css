@@ -184,3 +184,34 @@ button:hover {
     color: #c9a227;
     margin-bottom: 15px;
 }
+/* ===== GALLERY SECTION ===== */
+
+#gallery {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #c9a227;
+    transition: 0.3s;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(201,162,39,0.5);
+}
