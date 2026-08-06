@@ -33,7 +33,17 @@ function changeLanguage(language) {
     document.querySelector("#certificates h2").textContent = text.certificates;
 
     document.querySelector("#contact h2").textContent = text.contact;
+document.querySelector("nav a:nth-child(1)").textContent = text.menuHome;
 
+document.querySelector("nav a:nth-child(2)").textContent = text.menuAbout;
+
+document.querySelector("nav a:nth-child(3)").textContent = text.menuExperience;
+
+document.querySelector("nav a:nth-child(4)").textContent = text.menuGallery;
+
+document.querySelector("nav a:nth-child(5)").textContent = text.menuCertificates;
+
+document.querySelector("nav a:nth-child(6)").textContent = text.menuContact;
 
     if (language === "ar") {
 
