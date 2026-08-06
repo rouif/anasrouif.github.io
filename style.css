@@ -245,3 +245,39 @@ button:hover {
     background: white;
     transform: translateY(-5px);
 }
+    /* ===== ARABIC MODE ===== */
+
+body[style*="rtl"] {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+
+
+body[style*="rtl"] nav {
+    direction: rtl;
+}
+
+/* ===== LANGUAGE BUTTONS ===== */
+
+.languages button {
+
+    background: #c9a227;
+    color: black;
+    border: none;
+    width: 45px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+
+.languages button:hover {
+
+    background: white;
+    transform: translateY(-3px);
+
+}
