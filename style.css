@@ -420,7 +420,11 @@ body[style*="rtl"] nav {
 
 
 .certificate-list article {
+.certificate-list article img {
 
+    margin-bottom: 15px;
+
+}
     background: #111;
     border: 1px solid #c9a227;
     border-radius: 15px;
