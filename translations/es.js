@@ -15,5 +15,10 @@ const es = {
     certificates: "Certificados y formación",
 
     contact: "Contáctame"
-
+menuHome: "Inicio",
+menuAbout: "Sobre mí",
+menuExperience: "Experiencia",
+menuGallery: "Galería",
+menuCertificates: "Certificados",
+menuContact: "Contacto"
 };
