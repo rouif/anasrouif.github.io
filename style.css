@@ -451,3 +451,11 @@ body[style*="rtl"] nav {
     transform: translateY(-8px);
 
 }
+.certificate-list img {
+
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
