@@ -281,3 +281,65 @@ body[style*="rtl"] nav {
     transform: translateY(-3px);
 
 }
+/* ===== MOBILE DESIGN ===== */
+
+@media (max-width: 600px) {
+
+
+    header {
+        padding: 20px 10px;
+    }
+
+
+    header h1 {
+        font-size: 28px;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+
+    nav a {
+        font-size: 16px;
+    }
+
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+    .certificate-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .certificate-list article {
+        width: 90%;
+    }
+
+
+    .contact-links a {
+        display: block;
+        margin: 15px auto;
+        width: 80%;
+    }
+
+
+    .languages {
+        margin-bottom: 15px;
+    }
+
+
+}
