@@ -15,5 +15,10 @@ const ar = {
     certificates: "الشهادات والتكوينات",
 
     contact: "تواصل معي"
-
+menuHome: "الرئيسية",
+menuAbout: "عني",
+menuExperience: "الخبرة",
+menuGallery: "معرض الصور",
+menuCertificates: "الشهادات",
+menuContact: "تواصل"
 };
